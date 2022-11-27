@@ -6,8 +6,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css">
   <title>Meu anime favorito</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <header>
+    <div class="container">
+      <h1>My favorite anime</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#sobre">Sobre o anime</a>
+          </li>
+
+          <li>
+            <a href="#contact">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="sobre">
+    <div class="container">
+      <img controls class="gif-img" src="./img/a72d65ffc396ca47ccc5e446ec4c09f7.gif"></img>
+
+      <div>
+        <h2>Sobre o anime</h2>
+        <p>
+          Bleach é uma série de mangá escrita e ilustrada por Tite Kubo. Bleach segue as aventuras de Ichigo Kurosaki que após ganhar os poderes de um Ceifeiro de Almas, através de uma Ceifeira de Almas, Rukia Kuchiki.
+        </p>
+
+        <h3>Veja o anime por aqui</h3>
+        <ul class="brand-list">
+          <li><a href="https://www.crunchyroll.com/pt-br/series/GG5H5XK80/bleach-international-dubs"><img src="./img/61362667f5966900044cbf72.png" alt="Crunchyroll"></a></li>
+          <li><a href="https://betteranime.net/anime/legendado/bleach-sennen-kessen-hen"><img src="./img/1280-betteranime.png" alt="Site BetterAnimes"></a></li>
+          <li id="animes-online"><a href="https://animesonline.cc/anime/bleach/" alt="Animes Online">Animes online</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+<section id="contact">
+  <div class="container">
+      <h2>Fique por dentro de novas recomendações como esta</h2>
+     <div class="contact-method">
+      <div>
+       <h3 class="text-inscrever">Inscreva-se através do e-mail</h3>
+       <form action="">
+        <input type="text" placeholder="Informe seu nome" required>
+        <input type="email" placeholder="Informe seu e-mail" required>
+        <label for="area-de-texto">O que podemos melhorar?</label>
+        <textarea cols="10" rows="10" id="area-de-texto" placeholder="Opcional"></textarea>
+        <button type="submit">Me inscrever</button>
+       </form>
+       <div>
+        <h3>Nos acompanhe</h3>
+        <ul class="social-links">
+          <li><a href=""><img src="./img/discord-logo-png-7617.png" alt="Logo do discord"></a></li>
+          <li><a href=""><img src="./img/03.png" alt="Logo do instagram"></a></li>
+          <li><a href=""><img src="./img/youtube.png" alt="Logo do youtube"></a></li>
+        </ul>
+      </div>
+      </div>
+     </div>
+    </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; MY FAVORITE ANIME - Todos os direitos reservados</p>
+  </div>
+</footer>
 </body>
 </html>

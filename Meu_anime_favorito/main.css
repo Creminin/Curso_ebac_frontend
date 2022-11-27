@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #111827;
+  font-family: 'Roboto', sans-serif;
+}
+
+header, section h2{
+  font-family: 'Bungee', cursive;
+}
+
+header{
+  padding: 16px 0;
+}
+
+header h1, section h2{
+  font-weight: normal;
+}
+
+header .container, section .container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1288px;
+  color: #fff;
+}
+
+li{
+  display: inline;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+#animes-online{
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container h1{
+  color: #fff;
+  font-size: 30px;
+}
+
+li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.gif-img{
+  height: 500px;
+  width: 600px;
+  border-radius: 15px;
+  border: 4px solid rgb(51, 3, 96);
+  margin-right: 32px;
+}
+
+.brand-list img{
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+
+
+.brand-list{
+  display: flex;
+  align-items: center;
+}
+
+section .container{
+  align-items: flex-start;
+}
+
+section {
+  padding: 24px 0;
+}
+
+section h2{
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+section p{
+  margin-bottom: 40px;
+}
+
+form input, form textarea,
+form button{
+  display: block;
+  margin-bottom: 15px;
+  width: 352px;
+  border: 5px solid rgb(74, 9, 135);
+  padding: 10px;
+  border-radius: 15px;
+  outline: none;
+}
+
+form textarea{
+  resize: none;
+}
+
+.text-inscrever{
+  margin-bottom: 10px;
+}
+
+.social-links img{
+  height: 30px;
+  margin-top: 10px;
+}
+
+#contact .container{
+  display: block;
+}
+
+.contact-method{
+  display: flex;
+  justify-content: space-between;
+}
+
+form button{
+  border-radius: 10px;
+  background-color: #111827;
+  color: #fff;
+  font-family: 'Bungee', cursive;
+  font-weight: normal;
+  transition: 150ms ease-in;
+}
+
+form button:hover{
+  background-color: rgb(74, 9, 135);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+form label{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+footer{
+  background-color: #1f2937;
+  padding: 24px 0;
+}
